@@ -1,0 +1,143 @@
+*{
+    list-style:none;
+    padding:0;
+    }
+    body{background: #333};
+    
+    .skills li{
+        margin:20px 0;
+    }
+    .skills{
+       color: white;
+    }
+    .bar{
+        background: #353b48;
+        display:block;
+        height:5px;
+        width:60vw;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius:3px;
+        overflow:hidden;
+        box-shadow: 0 0 10px #2187e7b3;
+    }
+    .bar span{
+        height: 5px;
+        float:left;
+        background:#2187e7;
+    }
+    .html{
+        width:85%;
+        animation-name: html;
+        animation-delay: 1s;
+        animation-duration:  3s;
+    }
+    @keyframes html{
+        0%{width: 0% }
+        100%{width: 85% }
+    }
+    .boot{
+        width:60%;
+        animation-name: boot;
+        animation-delay: 1s;
+        animation-duration:  3s;
+    }
+    @keyframes boot{
+        0%{width: 0% }
+        100%{width: 60% }
+    }
+    .js{
+        width:75%;
+        animation-name: js;
+        animation-delay: 1s;
+        animation-duration:  3s;
+    }
+    @keyframes js{
+        0%{width: 0% }
+        100%{width:75% }
+    }
+    .ang{
+        width:30%;
+        animation-name: ang;
+        animation-delay: 1s;
+        animation-duration:  3s;
+    }
+    @keyframes ang{
+        0%{width: 0% }
+        100%{width: 30% }
+    }
+    .react{
+        width:30%;
+        animation-name: react;
+        animation-delay: 1s;
+        animation-duration:  3s;
+    }
+    @keyframes react{
+        0%{width: 0% }
+        100%{width: 30% }
+    }
+    .mongo{
+        width:70%;
+        animation-name:mongo;
+        animation-delay: 1s;
+        animation-duration:  3s;
+    }
+    @keyframes mongo{
+        0%{width: 0% }
+        100%{width:70% }
+    }
+    .mysql{
+        width:70%;
+        animation-name: mysql;
+        animation-delay: 1s;
+        animation-duration:  3s;
+    }
+    @keyframes mysql{
+        0%{width: 0% }
+        100%{width: 70% }
+    }
+    .node{
+        width:70%;
+        animation-name: node;
+        animation-delay: 1s;
+        animation-duration:  3s;
+    }
+    @keyframes node{
+        0%{width: 0% }
+        100%{width: 70% }
+    }
+    .python{
+        width:65%;
+        animation-name:python;
+        animation-delay: 1s;
+        animation-duration:  3s;
+    }
+    @keyframes python{
+        0%{width: 0% }
+        100%{width: 65% }
+    }
+
+    body {
+        position: relative; 
+    }
+    #Home {padding-top:50px;color: #fff;}
+    #Aboutme {padding-top:50px;color: #fff; background-color:whitesmoke;}
+    #Skills {padding-top:50px;color: #fff; background-color: #333;}
+    #Projects {padding-top:50px;color: #fff; background-color: #00bcd4;}
+    #Blogs {padding-top:50px;color: #fff;background-color: #009688; }
+   
+  #dev{
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+    animation-name: dev;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes dev{
+    0%{ transform: rotate(0deg);
+    transform-origin: bottom left;}
+    50%{ transform: rotate(-3deg);
+    transform-origin: bottom left;}
+    100%{ transform: rotate(0deg);
+    transform-origin: bottom left;}
+  }
+    
