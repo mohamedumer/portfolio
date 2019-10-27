@@ -2,7 +2,7 @@
     list-style:none;
     padding:0;
     }
-    body{background: #333};
+    
     
     .skills li{
         margin:20px 0;
@@ -25,7 +25,7 @@
         float:left;
         background:#2187e7;
     }
-    .html{
+    #html{
         width:85%;
         animation-name: html;
         animation-delay: 1s;
@@ -35,7 +35,7 @@
         0%{width: 0% }
         100%{width: 85% }
     }
-    .boot{
+    #boot{
         width:60%;
         animation-name: boot;
         animation-delay: 1s;
@@ -45,7 +45,7 @@
         0%{width: 0% }
         100%{width: 60% }
     }
-    .js{
+    #js{
         width:75%;
         animation-name: js;
         animation-delay: 1s;
@@ -55,7 +55,7 @@
         0%{width: 0% }
         100%{width:75% }
     }
-    .ang{
+    #ang{
         width:30%;
         animation-name: ang;
         animation-delay: 1s;
@@ -65,7 +65,7 @@
         0%{width: 0% }
         100%{width: 30% }
     }
-    .react{
+    #react{
         width:30%;
         animation-name: react;
         animation-delay: 1s;
@@ -75,7 +75,7 @@
         0%{width: 0% }
         100%{width: 30% }
     }
-    .mongo{
+    #mongo{
         width:70%;
         animation-name:mongo;
         animation-delay: 1s;
@@ -85,7 +85,7 @@
         0%{width: 0% }
         100%{width:70% }
     }
-    .mysql{
+    #mysql{
         width:70%;
         animation-name: mysql;
         animation-delay: 1s;
@@ -95,7 +95,7 @@
         0%{width: 0% }
         100%{width: 70% }
     }
-    .node{
+    #node{
         width:70%;
         animation-name: node;
         animation-delay: 1s;
@@ -105,7 +105,7 @@
         0%{width: 0% }
         100%{width: 70% }
     }
-    .python{
+    #python{
         width:65%;
         animation-name:python;
         animation-delay: 1s;
@@ -120,10 +120,10 @@
         position: relative; 
     }
     #Home {padding-top:50px;color: #fff;}
-    #Aboutme {padding-top:50px;color: #fff; background-color:whitesmoke;}
+    #Aboutme {padding-top:50px;color: #fff; background-image:url("./images/we.jpg"); background-position: center bottom; background-repeat: no-repeat;}
     #Skills {padding-top:50px;color: #fff; background-color: #333;}
-    #Projects {padding-top:50px;color: #fff; background-color: #00bcd4;}
-    #Blogs {padding-top:50px;color: #fff;background-color: #009688; }
+    #Projects {padding-top: 70px;background-color:rgba(163,215,220);color: #fff; background-image:url("./images/121.jpg"); background-position: center bottom ; background-repeat: no-repeat;}
+    #Blogs {padding-top: 50px;color: #fff;background-image:url("./images/slider2.jpg"); background-position: center bottom; background-repeat: no-repeat; }
    
   #dev{
     transform: rotate(0deg);
