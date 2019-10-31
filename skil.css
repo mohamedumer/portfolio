@@ -119,11 +119,11 @@
     body {
         position: relative; 
     }
-    #Home {padding-top:50px;color: #fff;}
-    #Aboutme {padding-top:50px;color: #fff; background-image:url("./images/we.jpg"); background-position: center bottom; background-repeat: no-repeat;}
-    #Skills {padding-top:50px;color: #fff; background-color: #333;}
-    #Projects {padding-top: 70px;background-color:rgba(163,215,220);color: #fff; background-image:url("./images/121.jpg"); background-position: center bottom ; background-repeat: no-repeat;}
-    #Blogs {padding-top: 50px;color: #fff;background-image:url("./images/slider2.jpg"); background-position: center bottom; background-repeat: no-repeat; }
+    #Home {padding-top:50px;}
+    #Aboutme {padding-top:50px; background-image:url("./images/we.jpg"); background-position: center bottom; background-repeat: no-repeat;}
+    #Skills {padding-top:50px; background-color: #333;}
+    #Projects {padding-top: 70px;background-image:url("./images/121.jpg"); background-position: center bottom ; background-repeat: no-repeat;background-size: cover;}
+    #Blogs {padding-top: 50px;padding-bottom: 100px; background-image:url("./images/slider2.jpg"); background-position: center bottom;background-size: cover; background-repeat: no-repeat; }
    
   #dev{
     transform: rotate(0deg);
