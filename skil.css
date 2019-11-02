@@ -115,10 +115,10 @@
     }
 
     
-    #Aboutme {padding-top:80px; background-image:url("./images/we.jpg"); background-position: center bottom;background-size: cover; background-repeat: no-repeat;}
-    #Skills {padding-top:100px; background-color: #333;}
-    #Projects {padding-top: 70px;background-image:url("./images/121.jpg"); background-position: center bottom ; background-repeat: no-repeat;background-size: cover;}
-    #Blogs {padding-top: 50px;padding-bottom: 55px; background-image:url("./images/slider2.jpg"); background-position: center bottom;background-size: cover; background-repeat: no-repeat; }
+    #Aboutme { overflow: hidden;padding-top:80px; background-image:url("./images/we.jpg"); background-position: center bottom;background-size: cover; background-repeat: no-repeat;}
+    #Skills { overflow: hidden;padding-top:100px; background-color: #333;}
+    #Projects { overflow: hidden;padding-top: 70px;background-image:url("./images/121.jpg"); background-position: center bottom ; background-repeat: no-repeat;background-size: cover;}
+    #Blogs { overflow: hidden;padding-top: 50px;padding-bottom: 55px; background-image:url("./images/slider2.jpg"); background-position: center bottom;background-size: cover; background-repeat: no-repeat; }
    
   #dev{
     transform: rotate(0deg);
@@ -141,4 +141,5 @@
     width: 100%;
     padding-top:130px;
     background-position: center bottom;background-size: cover; background-repeat: no-repeat; 
+    overflow: hidden;
   }
