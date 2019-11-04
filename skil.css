@@ -136,10 +136,9 @@
     transform-origin: bottom left;}
   }
 
-  #Home{
-    background-image: url("./images/11.jpg");
+ #Home{
+    background-image: url("./images/wor.jpg");
     width: 100%;
-    padding-top:130px;
     background-position: center bottom;background-size: cover; background-repeat: no-repeat; 
     overflow: hidden;
   }
